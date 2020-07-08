@@ -4,6 +4,7 @@ public class CountryStats {
     private String date;
     private int count;
     private int diff;
+    private String memo;
 
     public CountryStats(String date, int count) {
         this.date = date;
@@ -32,5 +33,13 @@ public class CountryStats {
 
     public void setDiff(int diff) {
         this.diff = diff;
+    }
+
+    public String getMemo() {
+        return memo;
+    }
+
+    public void setMemo(String memo) {
+        this.memo = memo;
     }
 }
